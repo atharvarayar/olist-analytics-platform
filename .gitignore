@@ -2,7 +2,8 @@
 .env
 
 # Raw data files
-data/raw/
+data_raw/
+data/
 *.csv
 
 # Jupyter checkpoints
@@ -10,3 +11,16 @@ data/raw/
 
 # Python cache
 __pycache__/
+
+# dbt
+logs/
+target/
+dbt_packages/
+dbt_modules/
+
+# Python environment
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
