@@ -1,0 +1,30 @@
+version: 2
+
+models:
+
+  - name: stg_customers
+    description: "Customer records used to identify customers and their locations."
+
+  - name: stg_orders
+    description: "Order-level records containing customer relationships, order status, and order lifecycle timestamps."
+
+  - name: stg_order_items
+    description: "Product-level items purchased within each order. Each row represents one product line in an order."
+
+  - name: stg_payments
+    description: "Payment records associated with orders, including payment type, installments, and value."
+
+  - name: stg_reviews
+    description: "Customer review records associated with orders, including review scores and timestamps."
+
+  - name: stg_products
+    description: "Product attributes including category, dimensions, weight, and number of photos."
+
+  - name: stg_sellers
+    description: "Seller records containing seller identity and geographic information."
+
+  - name: stg_category_translation
+    description: "Mapping between the original Portuguese product categories and their English translations."
+
+  - name: stg_geolocation
+    description: "Geographic information associated with ZIP code prefixes, including coordinates, city, and state."
